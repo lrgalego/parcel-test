@@ -1,6 +1,6 @@
 import decamelize from "decamelize"
-import pkg1 from "@test/pkg1"
-import pkg2 from "@test/pkg2"
+import pkg1 from "pkg1"
+import pkg2 from "pkg2"
 
 console.log('loaded')
 console.log(decamelize('bunDle'))

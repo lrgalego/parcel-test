@@ -1,5 +1,6 @@
 import decamelize from "decamelize"
 
-export default () => {
-  console.log(decamelize("pkg2"))
+export default (a) => {
+  a = a || "pkg2"
+  console.log(decamelize(a))
 }

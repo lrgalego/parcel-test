@@ -1,0 +1,4 @@
+{
+  "private": true,
+  "workspaces": ["bundle", "pkg1", "pkg2"]
+}

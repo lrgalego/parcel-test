@@ -9,9 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@test/pkg1": "link:../pkg1",
-    "@test/pkg2": "link:../pkg2"
+    "pkg1": "1.0.0",
+    "pkg2": "1.0.0"
   },
-  "alias": {
+  "alias": {},
+  "devDependencies": {
+    "parcel-plugin-bundle-visualiser": "^1.2.0"
   }
 }
